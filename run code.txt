@@ -1,0 +1,1 @@
+g++ -std=c++17 Authentication/Main.cpp Authentication/Login.cpp Authentication/Registration.cpp Authentication/AuthService.cpp InputValidators/EmailValidator.cpp InputValidators/PasswordValidator.cpp Utils/PasswordHasher.cpp -o auth
