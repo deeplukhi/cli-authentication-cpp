@@ -22,6 +22,12 @@ public:
         const std::string& username,
         const std::string& password
     );
+
+    bool changePassword(
+        std::string& username,
+        std::string& oldPassword,
+        std::string& newPassword
+    );
 };
 
 #endif
